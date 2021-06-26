@@ -20,5 +20,18 @@ function titelcase2(str){
     console.log(capitilized)
 }
 
+function titelcase3(str){
+    var splitted = str.split(" ")
+    var capitilized = []
+
+    splitted.forEach(item => {
+        var word = item[0].toUpperCase() + item.slice(1)
+        capitilized.push(word)
+    });
+    capitilized = capitilized.join(" ")
+    console.log(capitilized)
+}
+
 titelcase("I'm a little tea pot")
 titelcase2("I'm a little tea pot")
+titelcase3("I'm a little tea pot")
