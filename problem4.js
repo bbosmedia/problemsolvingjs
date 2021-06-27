@@ -22,7 +22,7 @@ function foo(str){
 }
 
 
-foo("aabbbccd") //a2b3c2
+foo("aabbbcc") //a2b3c2
 
 
 
